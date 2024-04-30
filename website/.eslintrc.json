@@ -1,0 +1,12 @@
+{
+  "extends": ["../.eslintrc.js"],
+  "ignorePatterns": ["!**/*"],
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "parserOptions": {
+        "project": ["website/tsconfig.*?.json"]
+      }
+    }
+  ]
+}
